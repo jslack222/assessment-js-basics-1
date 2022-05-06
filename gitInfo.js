@@ -9,7 +9,7 @@
     It should be a string containing your best definition of what Git is.
 */
 
-//CODE HERE
+gitDefinition = 'Git is a program not to confused with github. It is a version control system that allows individuals and teams to track changers to code projects, prevent bugs and loss of progress.'
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -17,15 +17,14 @@
     It should be a string containing your best definition of what GitHub is.
 */
 
-//CODE HERE
+gitHubDefinition = "GitHub is a website that allows you to take your git repositories and upload/download them. It is essentially a cloud service for your git repositories."
 
 //////////////////PROBLEM 3////////////////////
 /*
     Create a variable called 'gitInitDefinition'.  
     It should be a string containing your best definition of what 'git init' does.
 */
-
-//CODE HERE
+gitInitDefinition = 'initialize a local repository right here in this folder that I am'
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -33,7 +32,8 @@
     It should be a string containing your best definition of what 'git clone' does.
 */
 
-//CODE HERE
+gitCloneDefinition = 'copy a repo from Github and put it on my machine'
+
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -41,7 +41,8 @@
     It should be a string containing your best definition of what 'git status' does.
 */
 
-//CODE HERE
+gitStatusDefinition = 'tell me about this repository'
+
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -52,7 +53,11 @@
     It should be a string containing the code to add all files.
 */
 
-//CODE HERE
+gitAddDefinition = 'add some files to be tracked (always!)'
+
+gitAddCode = git add . 
+
+
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -63,7 +68,9 @@
     It should be a string containing the code to commit using the message "initial commit".
 */
 
-//CODE HERE
+gitCommitDefinition = 'create a snapshot of the files im tracking'
+
+gitCommitCode = git commit -m "initial commit"
 
 
 //////////////////PROBLEM 8////////////////////
@@ -72,4 +79,4 @@
     It should be a string containing your best definition of what 'git push' does.
 */
 
-//CODE HERE
+gitPushDefinition = 'put my local commits on GitHub'
